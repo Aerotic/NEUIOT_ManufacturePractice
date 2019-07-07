@@ -1,1 +1,2 @@
-# ManufacturePractice2019
+# 东北大学计院物联网工程专业生产实习相关资料
+![](./demo.png)
