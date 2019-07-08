@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>3509123158</fileChecksum>
+  <configuration>
+    <name>Debug</name>
+    <outputs>
+      <file>$PROJ_DIR$\..\SourceCode\Common\sys_init.h</file>
+      <file>$PROJ_DIR$\..\Source\adc.h</file>
+      <file>$PROJ_DIR$\..\Source\led.c</file>
+      <file>$PROJ_DIR$\..\Source\main.c</file>
+      <file>$PROJ_DIR$\..\SourceCode\UserCode\main.c</file>
+      <file>$PROJ_DIR$\..\SourceCode\UserCode\sys_init.h</file>
+      <file>$PROJ_DIR$\..\SourceCode\UserCode\rgb.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\rgb.pbi</file>
+      <file>$PROJ_DIR$\..\SourceCode\UserCode\led.h</file>
+      <file>$PROJ_DIR$\..\SourceCode\UserCode\clock.c</file>
+      <file>$TOOLKIT_DIR$\inc\clib\stdarg.h</file>
+      <file>$TOOLKIT_DIR$\lib\clib\cl-pli-blxd-1e16x01.r51</file>
+      <file>$TOOLKIT_DIR$\config\devices\Texas Instruments\lnk51ew_CC2530F256_banked.xcl</file>
+      <file>$PROJ_DIR$\Debug\Obj\sys_init.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\clock.pbi</file>
+      <file>$PROJ_DIR$\Debug\Exe\ADC.hex</file>
+      <file>$PROJ_DIR$\..\SourceCode\UserCode\clock.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\sys_init.r51</file>
+      <file>$PROJ_DIR$\..\SourceCode\Common\sys_init.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\rgb.r51</file>
+      <file>$PROJ_DIR$\..\SourceCode\UserCode\led.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\led.pbi</file>
+      <file>$PROJ_DIR$\..\Source\readme.txt</file>
+      <file>$TOOLKIT_DIR$\inc\clib\stdio.h</file>
+      <file>$PROJ_DIR$\..\SourceCode\UserCode\rgb.c</file>
+      <file>$PROJ_DIR$\Debug\Exe\ADC.d51</file>
+      <file>$PROJ_DIR$\Debug\Obj\led.r51</file>
+      <file>$PROJ_DIR$\Debug\Obj\adc.r51</file>
+      <file>$PROJ_DIR$\..\SourceCode\UserCode\adc.c</file>
+      <file>$PROJ_DIR$\..\Source\sys_init.c</file>
+      <file>$PROJ_DIR$\Debug\Exe\rgbled_test.d51</file>
+      <file>$PROJ_DIR$\Debug\Obj\adc.pbi</file>
+      <file>$PROJ_DIR$\..\Source\clock.h</file>
+      <file>$PROJ_DIR$\..\SourceCode\UserCode\adc.h</file>
+      <file>$TOOLKIT_DIR$\inc\clib\sysmac.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.r51</file>
+      <file>$PROJ_DIR$\Debug\Obj\clock.r51</file>
+      <file>$PROJ_DIR$\..\SourceCode\UserCode\sys_init.c</file>
+      <file>$PROJ_DIR$\..\Source\rgb.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\ADC.pbd</file>
+      <file>$TOOLKIT_DIR$\inc\ioCC2530.h</file>
+      <file>$PROJ_DIR$\..\Source\clock.c</file>
+      <file>$PROJ_DIR$\..\Source\adc.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
+    </outputs>
+    <file>
+      <name>$PROJ_DIR$\..\Source\led.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 21</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Source\main.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 43</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 35</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 40 32 1</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 40 32 1</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\SourceCode\UserCode\main.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 43</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 35</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 40 8 16 33</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\SourceCode\UserCode\clock.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 14</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 36</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 16 40</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\SourceCode\Common\sys_init.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 13</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 0 40 23 10 34</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\SourceCode\UserCode\led.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 21</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 26</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 8 40</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\SourceCode\UserCode\rgb.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 7</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 19</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 6 40 5 23 10 34</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 6 40 5 23 10 34</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Exe\ADC.d51</name>
+      <outputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 15</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 12 27 36 35 11</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\SourceCode\UserCode\adc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 31</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 27</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 33 40</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Source\sys_init.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 13</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 17</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Exe\rgbled_test.d51</name>
+      <inputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 12 35 19 17 11</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\SourceCode\UserCode\sys_init.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 13</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 17</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 5 40 23 10 34</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 5 40 23 10 34</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Source\rgb.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 7</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 19</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 25 15</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Source\clock.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 14</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 36</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 32 40</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 32 40</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Source\adc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 31</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 27</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 1 40</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 1 40</file>
+        </tool>
+      </inputs>
+    </file>
+  </configuration>
+  <configuration>
+    <name>Release</name>
+    <outputs/>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>XLINK</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>[REBUILD_ALL]</name>
+    </forcedrebuild>
+  </configuration>
+</project>
+
+
